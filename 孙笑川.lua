@@ -9,5 +9,5 @@ end
 
 local window = library:new("孙笑川┋逆天缝合")
 
-local 变量1 = window:Tab("死铁轨", '16060333448')
-local 变量2 = 变量1:section("设置", true)
+local a = window:Tab("死铁轨", '16060333448')
+local b = a:section("设置", true)

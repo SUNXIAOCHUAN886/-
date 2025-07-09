@@ -1,7 +1,7 @@
 (function()
 --> 保护函数, 请勿删除
 
-local uiName = "穷小子打工记简易脚本";
+local uiName = "XT脚本---穷小子打工记";
 local a =
     setmetatable(
     {},
@@ -1277,6 +1277,207 @@ end)
 
 win1:NewButton("出生点", function()--演示
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(112.54615783691406, -1.9999996423721313, -796.7562866210938)
+    print("btn3");
+end)
+
+local win1 = library:CreateTab("井盖");
+win1:NewButton("井盖", function()
+    library:SelectNotify{
+        Title = "全图井盖",
+        Text = "记得加群哦"
+}
+end)
+win1:NewSeparator()
+win1:NewSeparator()
+win1:NewSeparator()
+
+win1:NewButton("井盖1", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(265.4999694824219, 16, -1455.3370361328125)
+    print("btn3");
+end)
+
+win1:NewButton("井盖2", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(265.4999694824219, 15.999999046325684, -1329.3370361328125)
+    print("btn3");
+end)
+
+win1:NewButton("井盖3", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(265.4999694824219, 16, -1129.3370361328125)
+    print("btn3");
+end)
+
+win1:NewButton("井盖4", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1521.634033203125,16.0101394653,203, -1046.8819580078125)
+    print("btn3");
+end)
+
+win1:NewButton("井盖5", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(928.9996337890625, 16.00002098083496, -1057.16259765625)
+    print("btn3");
+end)
+
+win1:NewButton("井盖6", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(728.9996337890625, 16.00002098083496, -1057.16259765625)
+    print("btn3");
+end)
+
+win1:NewButton("井盖7", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(528.9996337890625, 16.00002098083496, -1057.16259765625)
+    print("btn3");
+end)
+
+win1:NewButton("井盖8", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(328.9996643066406, 16.00002098083496, -1057.16259765625)
+    print("btn3");
+end)
+
+win1:NewButton("井盖9", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(265.4999694824219, 16, -1007.337158203125)
+    print("btn3");
+end)
+
+win1:NewButton("井盖10", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(265.4999694824219, 15.999998092651367, -807.337158203125)
+    print("btn3");
+end)
+
+win1:NewButton("井盖11", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(265.4999694824219, 16, -607.337158203125)
+    print("btn3");
+end)
+
+win1:NewButton("井盖12", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(265.4999694824219, 15.999998092651367, -407.3371276855469)
+    print("btn3");
+end)
+
+win1:NewButton("井盖13", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(265.4999694824219, 15.999998092651367, -207.33712768554688)
+    print("btn3");
+end)
+
+win1:NewButton("井盖14", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(265.4999694824219, 15.999996185302734, -7.337127685546875)
+    print("btn3");
+end)
+
+win1:NewButton("井盖15", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(143.49996948242188, -2.0000009536743164, -861.9996337890625)
+    print("btn3");
+end)
+
+win1:NewButton("井盖16", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(143.49996948242188, -2.000000476837158, -661.9996337890625)
+    print("btn3");
+end)
+
+win1:NewButton("井盖17", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(143.49996948242188, -2.0000007152557373, -461.9996643066406)
+    print("btn3");
+end)
+
+win1:NewButton("井盖18", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(143.49996948242188, -2.0000009536743164, -261.9996643066406)
+    print("btn3");
+end)
+
+win1:NewButton("井盖19", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(143.4999542236328, -2.0000009536743164, -61.999664306640625)
+    print("btn3");
+end)
+
+win1:NewButton("井盖20", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(143.4999542236328, -2.0000009536743164, 138.00033569335938)
+    print("btn3");
+end)
+
+win1:NewButton("井盖21", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(334.4999694824219, 16.0000057220459, -621.337158203125)
+    print("btn3");
+end)
+
+win1:NewButton("井盖22", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(514.0003662109375, 16.0101375579834, -993.4999389648438)
+    print("btn3");
+end)
+
+win1:NewButton("井盖23", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(636.0003662109375, 16.0101375579834, -993.4999389648438)
+    print("btn3")
+end)
+
+win1:NewButton("井盖24", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(758.0003662109375, 16.0101375579834, -993.4999389648438)
+    print("btn3");
+end)
+
+win1:NewButton("井盖25", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(880.0003662109375, 16.0101375579834, -993.4999389648438)
+    print("btn3");
+end)
+
+win1:NewButton("井盖26", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(874.4994506835938, 16.09991455078125, -919.336669921875)
+    print("btn3");
+end)
+
+win1:NewButton("井盖27", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(605.9991455078125, 16.100013732910156, -764.8386840820312)
+    print("btn3");
+end)
+
+win1:NewButton("井盖28", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(560.8931884765625, 16.099014282226562, -670.866455078125)
+    print("btn3");
+end)
+
+win1:NewButton("井盖29", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(560.8931884765625, 16.09901237487793, -537.866455078125)
+    print("btn3");
+end)
+
+win1:NewButton("井盖30", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(790.92138671875, 16.09941291809082, -562.55224609375)
+    print("btn3");
+end)
+
+win1:NewButton("井盖31", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(747.2041015625, 16.099515914916992, -776.2927856445312)
+    print("btn3");
+end)
+
+win1:NewButton("井盖32", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(876.8374633789062, 16.070213317871094, -811.9996337890625)
+    print("btn3");
+end)
+
+win1:NewButton("井盖33", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(869.1607666015625, 16.099517822265625, -750.543212890625)
+    print("btn3");
+end)
+
+win1:NewButton("井盖34", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(876.56396484375, 16.119213104248047, -581.7498779296875)
+    print("btn3");
+end)
+
+win1:NewButton("井盖35", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(979.3350830078125, 16.093624114990234, -872.707275390625)
+    print("btn3");
+end)
+
+win1:NewButton("井盖36", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1034.1705322265625, 16.056640625, -855.99267578125)
+    print("btn3");
+end)
+
+win1:NewButton("井盖37", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1069.35009765625, 16.000015258789062, -877.6331787109375)
+    print("btn3");
+end)
+
+win1:NewButton("井盖38", function()--演示
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1102.80419921875, 16.099515914916992, -802.638671875)
     print("btn3");
 end)
 
